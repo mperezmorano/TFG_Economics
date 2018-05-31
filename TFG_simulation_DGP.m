@@ -4,7 +4,7 @@
 %%%%%%%%%%%%%%%%%%%
 clear all
 betas = [0.9 1.5 1.6 1.7 1.5 0.4 0.3 0.2 0.1]; % DGP betas
-M = 5; % number of replications
+M = 100; % number of replications
 err_set = [0.01 1 2.25 7]; % values for error variance
 n_set = [700 200 100 30]; % values for sample size
 n_setflip = fliplr(n_set);
